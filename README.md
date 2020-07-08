@@ -80,9 +80,18 @@
 
 <h1><img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" height="20" /> Gatsby</h1>
 
+## `gatsby-config.js`
+
 All configurations are stored in `gatsby-config.js`
 
 For any `npm install gatsby-<plugin>`; add properties in `gatsby-config.js.plugins` array.
+
+
+## `gatsby-plugin-sharp`
+
+Handles image loading 
+
+
 
 <h1><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/25px-GraphQL_Logo.svg.png">GraphQL</h1>
 
@@ -106,3 +115,11 @@ For any `npm install gatsby-<plugin>`; add properties in `gatsby-config.js.plugi
     }
   }
 ```
+
+<h1><img alt="Disqus" src="https://c.disquscdn.com/next/c393ff4/marketing/assets/img/brand/disqus-social-icon-blue-white.svg" height="25" /> Disqus</h1>
+
+## Steps 
+
+<h1><img alt="Netlify" src="https://miro.medium.com/max/500/0*TwqQJI0YFBZEzjcV.png" height="25" /> Netlify</h1>
+
+## Steps to deploy
