@@ -12,6 +12,12 @@
   <a href="https://gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
+  <a href="https://graphql.org/">
+    <img alt="GraphQL" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png" width="60" />
+  </a>
+  <a href="https://www.netlify.com/">
+    <img alt="Netlify" src="https://miro.medium.com/max/500/0*TwqQJI0YFBZEzjcV.png" width="60" />
+  </a>
 </p>
 
 
