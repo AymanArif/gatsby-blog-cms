@@ -18,6 +18,12 @@
   <a href="https://www.netlify.com/">
     <img alt="Netlify" src="https://miro.medium.com/max/500/0*TwqQJI0YFBZEzjcV.png" width="60" />
   </a>
+
+
+  <a href="https://disqus.com/features/engage/">
+    <img alt="Disqus" src="https://c.disquscdn.com/next/c393ff4/marketing/assets/img/brand/disqus-social-icon-blue-white.svg" width="60" />
+  </a>
+  
 </p>
 
 
@@ -46,7 +52,7 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
   </a>
   <a href="https://twitter.com/@aymanace97">
-    <img src="https://img.shields.io/twitter/follow/aymanace97?label=Follow&style=social" alt="Follow @aymanace97" />
+    <img src="https://img.shields.io/twitter/follow/aymanace97?label=Follow%20Me&style=social" alt="Follow @aymanace97" />
   </a>
 </p>
 
@@ -70,3 +76,33 @@
 </h3>
 
 -->
+
+
+<h1><img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" height="20" /> Gatsby</h1>
+
+All configurations are stored in `gatsby-config.js`
+
+For any `npm install gatsby-<plugin>`; add properties in `gatsby-config.js.plugins` array.
+
+<h1><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/25px-GraphQL_Logo.svg.png">GraphQL</h1>
+
+
+## Posts Query
+
+```graphql
+  query{
+    allMarkdownRemark( sort: { fields: [frontmatter___date], order: DESC} ){
+      edges{
+        node{
+	  id	
+          frontmatter{
+            title
+            date(formatString: "Do MMM YYYY")
+            path
+          }
+          excerpt
+        }
+      }
+    }
+  }
+```
