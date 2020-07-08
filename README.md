@@ -40,7 +40,7 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
   </a>
   <a href="https://twitter.com/@aymanace97">
-    <img src="https://img.shields.io/twitter/follow/gatsbyjs.svg?label=Follow%20me%20@aymanace97" alt="Follow @aymanace97" />
+    <img src="https://img.shields.io/twitter/follow/aymanace97?label=Follow&style=social" alt="Follow @aymanace97" />
   </a>
 </p>
 
