@@ -9,6 +9,11 @@
 
 
 <p align="center">
+
+  <a href="https://tailwindcss.com/">
+    <img alt="TailWind" src="https://www.drupal.org/files/styles/grid-3-2x/public/project-images/screenshot_361.png?itok=w4CzcWyb" width="60" />
+  </a>
+  
   <a href="https://gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
@@ -23,6 +28,14 @@
   <a href="https://disqus.com/features/engage/">
     <img alt="Disqus" src="https://c.disquscdn.com/next/c393ff4/marketing/assets/img/brand/disqus-social-icon-blue-white.svg" width="60" />
   </a>
+
+  <a href="https://www.algolia.com/doc/">
+    <img alt="Algolia" src="https://avatars0.githubusercontent.com/u/2034458?s=280&v=4s" width="60" />
+  </a>
+
+
+
+  
   
 </p>
 
@@ -123,3 +136,8 @@ Handles image loading
 <h1><img alt="Netlify" src="https://miro.medium.com/max/500/0*TwqQJI0YFBZEzjcV.png" height="25" /> Netlify</h1>
 
 ## Steps to deploy
+
+
+<h1><img alt="Algolia" src="https://avatars0.githubusercontent.com/u/2034458?s=280&v=4s" height="27" /> Algolia</h1>
+
+## Setup Algolia
