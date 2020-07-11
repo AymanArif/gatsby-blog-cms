@@ -27,6 +27,7 @@
 </p>
 
 
+ 
 <h3 align="center">
   Learn what matters
 </h3>
@@ -54,6 +55,9 @@
   <a href="https://twitter.com/@aymanace97">
     <img src="https://img.shields.io/twitter/follow/aymanace97?label=Follow%20Me&style=social" alt="Follow @aymanace97" />
   </a>
+  <a href="https://www.linkedin.com/in/ayman-arif-patel-300683127">
+    <img src="https://img.shields.io/badge/-Ayman Patel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ayman-arif-patel-300683127" alt="Follow @aymanace97" />
+  </a>
 </p>
 
 <!--
@@ -80,18 +84,9 @@
 
 <h1><img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" height="20" /> Gatsby</h1>
 
-## `gatsby-config.js`
-
 All configurations are stored in `gatsby-config.js`
 
 For any `npm install gatsby-<plugin>`; add properties in `gatsby-config.js.plugins` array.
-
-
-## `gatsby-plugin-sharp`
-
-Handles image loading 
-
-
 
 <h1><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/25px-GraphQL_Logo.svg.png">GraphQL</h1>
 
@@ -115,11 +110,3 @@ Handles image loading
     }
   }
 ```
-
-<h1><img alt="Disqus" src="https://c.disquscdn.com/next/c393ff4/marketing/assets/img/brand/disqus-social-icon-blue-white.svg" height="25" /> Disqus</h1>
-
-## Steps 
-
-<h1><img alt="Netlify" src="https://miro.medium.com/max/500/0*TwqQJI0YFBZEzjcV.png" height="25" /> Netlify</h1>
-
-## Steps to deploy
