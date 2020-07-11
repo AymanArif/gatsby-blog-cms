@@ -1,5 +1,5 @@
 .site-footer {
-  background-color: $white;
+  background-color: $purple;
   margin-top: 20px;
   padding: 10px;
   text-align: center;
@@ -18,14 +18,14 @@
           &.instagram:hover {
             color: #e95950;
           }
-          &.facebook:hover {
-            color: rgb(66, 103, 178);
+          &.github:hover {
+            color: black;
           }
           &.twitter:hover {
             color: rgb(56, 161, 243);
           }
-          &.google:hover {
-            color: rgb(221, 75, 57);
+          &.medium:hover {
+            color: black;
           }
           &.linkedin:hover {
             color: rgb(0, 119, 181);
