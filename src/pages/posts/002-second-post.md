@@ -2,7 +2,6 @@
 title: 'Second Post - Introduction'
 date: 2018-12-01 07:00:00
 author: 'John Doe'
-path: 'second-post'
 image: ../../images/gatsby-astronaut.png
 tags:
   - code
