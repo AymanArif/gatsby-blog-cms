@@ -4,14 +4,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql, StaticQuery } from 'gatsby';
 import Post from "../components/Post"
-import {Row, Col} from "reactstrap"
-import Sidebar from "../components/Sidebar"
 const IndexPage = () => (
-  <Layout>
+  <Layout pageTitle="CodeBlog">
     <SEO title="Home" keywords={['gatsby', 'application', 'react']}/>
-    <h1>Hi Ayman </h1>
-    <Row>
-      <Col md="8">
       <StaticQuery
           query={indexQuery}
           render={data => {
@@ -33,11 +28,6 @@ const IndexPage = () => (
             )
           }}
         />
-      </Col>
-      <Col md="4">
-        <Sidebar/>
-      </Col>
-    </Row>    
   </Layout>
 )
 

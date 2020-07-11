@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Sidebar from '../components/Sidebar'
 import { graphql, Link } from 'gatsby'
 import SEO from '../components/seo'
 import { Badge, Card, CardBody, CardSubtitle, Row, Col } from 'reactstrap'
@@ -11,10 +10,10 @@ import { slugify } from '../utils/utilityFunctions'
 const SinglePost = ({ data }) => {
     const post = data.markdownRemark.frontmatter
   return (
-    <Layout>
-      <SEO title={post.title} />
+    <Layout pageTitle={post.title}>
+      <SEO title={post.title} /> 
       <Row>
-        <Col md="8">
+        <Col md="12">
             <Card>
             <Img
               className="card-image-top"
@@ -40,9 +39,7 @@ const SinglePost = ({ data }) => {
                 </CardBody>
             </Card>
         </Col>
-        <Col md="4">
-          <Sidebar />
-        </Col>
+        
       </Row>
       </Layout>
   )
