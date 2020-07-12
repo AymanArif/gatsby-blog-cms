@@ -14,7 +14,7 @@ const SinglePost = ({ data, pageContext  }) => {
   const author = authors.find(x => x.name === post.author)
   const baseUrl = 'https://ayman-technical-blog.netlify.app/' // TODO: Chagne with your netlify URL
 
-  const disqusShortname = 'https-ayman-technical-blog'
+  const disqusShortname = 'ayman-technical-blog'
   const disqusConfig = {
     identifier: data.markdownRemark.id,
     title: post.title,
