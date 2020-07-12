@@ -1,11 +1,14 @@
 <h1 align="center">
-  Ayman's blog 📄 site 
+  <a href="https://ayman-technical-blog.netlify.app/">
+    Ayman's blog 📄 site
+  </a>
 </h1>
 
 
 <h2 align="center">
   Made with :love_letter: using 
 </h2>
+
 
 
 <p align="center">
@@ -81,6 +84,10 @@
 
 -->
 
+## Setup guide
+
+1. `npm install` : Install npm dependecies
+2. `gatsby develop` : Run application
 
 <h1><img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" height="20" /> Gatsby</h1>
 
