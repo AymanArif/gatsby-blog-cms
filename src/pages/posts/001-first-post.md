@@ -4,8 +4,8 @@ date: 2019-07-07 07:00:00
 author: 'John Doe'
 image: ../../images/hype.png
 tags:
-  - code
-  - design
+  - opinion
+  - hype
 ---
 
 The Hype Cycle
