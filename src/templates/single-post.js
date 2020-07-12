@@ -7,10 +7,20 @@ import { Badge, Card, CardBody, CardSubtitle } from 'reactstrap'
 import Img from 'gatsby-image'
 import { slugify } from '../util/utilityFunctions'
 import authors from '../util/authors'
+import { DiscussionEmbed } from 'disqus-react'
 
-const SinglePost = ({ data }) => {
+const SinglePost = ({ data, pageContext  }) => {
   const post = data.markdownRemark.frontmatter
   const author = authors.find(x => x.name === post.author)
+  const baseUrl = 'https://ayman-technical-blog.netlify.app/' // TODO: Chagne with your netlify URL
+
+  const disqusShortname = 'https-ayman-technical-blog'
+  const disqusConfig = {
+    identifier: data.markdownRemark.id,
+    title: post.title,
+    url: baseUrl + pageContext.slug,
+  }
+
   console.log(author)
   console.log(data.file.childImageSharp.fluid)
   return (
@@ -42,6 +52,44 @@ const SinglePost = ({ data }) => {
           </ul>
         </CardBody>
       </Card>
+      <h3 className="text-center">Share this post</h3>
+      <div className="text-center social-share-links">
+        <ul>
+          <li>
+            <a
+              href={
+                'https://twitter.com/share?url=' +
+                baseUrl +
+                pageContext.slug +
+                '&text=' +
+                post.title +
+                '&via' +
+                'twitterHandle'
+              }
+              className="twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-twitter fa-2x" />
+            </a>
+          </li>
+          <li>
+            <a
+              href={
+                'https://www.linkedin.com/shareArticle?url=' +
+                baseUrl +
+                pageContext.slug
+              }
+              className="linkedin"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-linkedin fa-2x" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
     </Layout>
   )
 }
