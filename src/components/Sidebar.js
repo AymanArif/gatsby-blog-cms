@@ -13,17 +13,8 @@ import Img from 'gatsby-image'
 
 const Sidebar = ({ author, authorFluid }) => (
   <div>
-        <Card>
-      <CardBody>
-        <CardTitle className="text-center text-uppercase mb-3">
-        Empty
-        {author}
 
-        hai
-        </CardTitle>
-       </CardBody>
-        </Card>
-    { author && (
+    {author && (
       <Card>
         <Img className="card-image-top" fluid={authorFluid} />
         <CardBody>
@@ -34,53 +25,23 @@ const Sidebar = ({ author, authorFluid }) => (
           <div className="author-social-links text-center">
             <ul>
               <li>
-                <a
-                  href={author.facebook}
-                  targe="_blank"
-                  rel="noopener noreferrer"
-                  className="facebook"
-                >
-                  <i className="fab fa-facebook-f fa-lg" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href={author.twitter}
-                  targe="_blank"
-                  rel="noopener noreferrer"
-                  className="twitter"
-                >
+                <a href={author.twitter} targe="_blank" rel="noopener noreferrer" className="twitter">
                   <i className="fab fa-twitter fa-lg" />
                 </a>
               </li>
               <li>
-                <a
-                  href={author.instagram}
-                  targe="_blank"
-                  rel="noopener noreferrer"
-                  className="instagram"
-                >
-                  <i className="fab fa-instagram fa-lg" />
+                <a href={author.github} targe="_blank" rel="noopener noreferrer" className="github">
+                  <i className="fab fa-github fa-lg" />
                 </a>
               </li>
               <li>
-                <a
-                  href={author.google}
-                  targe="_blank"
-                  rel="noopener noreferrer"
-                  className="google"
-                >
-                  <i className="fab fa-google fa-lg" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href={author.linkedin}
-                  targe="_blank"
-                  rel="noopener noreferrer"
-                  className="linkedin"
-                >
+              <a href={author.linkedin} targe="_blank" rel="noopener noreferrer" className="linkedin">
                   <i className="fab fa-linkedin fa-lg" />
+                </a>
+              </li>
+              <li>
+              <a href={author.medium} targe="_blank" rel="noopener noreferrer" className="medium">
+                  <i className="fab fa-medium fa-lg" />
                 </a>
               </li>
             </ul>
@@ -182,3 +143,77 @@ const sidebarQuery = graphql`
 `
 
 export default Sidebar
+
+/*    
+       <Card>
+         <CardBody>
+        <CardTitle className="text-center text-uppercase mb-3"> 
+        </CardTitle>
+       </CardBody>
+    </Card>
+      { author && (
+      <Card>
+        <Img className="card-image-top" fluid={authorFluid} />
+        <CardBody>
+          <CardTitle className="text-center text-uppercase mb-3">
+            {author.name}
+          </CardTitle>
+          <CardText>{author.bio}</CardText>
+          <div className="author-social-links text-center">
+            <ul>
+              <li>
+                <a
+                  href={author.facebook}
+                  targe="_blank"
+                  rel="noopener noreferrer"
+                  className="facebook"
+                >
+                  <i className="fab fa-facebook-f fa-lg" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={author.twitter}
+                  targe="_blank"
+                  rel="noopener noreferrer"
+                  className="twitter"
+                >
+                  <i className="fab fa-twitter fa-lg" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={author.instagram}
+                  targe="_blank"
+                  rel="noopener noreferrer"
+                  className="instagram"
+                >
+                  <i className="fab fa-instagram fa-lg" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={author.google}
+                  targe="_blank"
+                  rel="noopener noreferrer"
+                  className="google"
+                >
+                  <i className="fab fa-google fa-lg" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={author.linkedin}
+                  targe="_blank"
+                  rel="noopener noreferrer"
+                  className="linkedin"
+                >
+                  <i className="fab fa-linkedin fa-lg" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </CardBody>
+      </Card>
+    )}
+    */

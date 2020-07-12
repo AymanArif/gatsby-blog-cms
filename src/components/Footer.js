@@ -41,7 +41,7 @@ const Footer = () => (
                     </li>
                     <li>
                         <a
-                            href="https://www.medium.com"
+                            href="https://medium.com/@aymanarif"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="medium"
