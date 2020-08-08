@@ -27,6 +27,9 @@
     <img alt="Disqus" src="https://c.disquscdn.com/next/c393ff4/marketing/assets/img/brand/disqus-social-icon-blue-white.svg" width="60" />
   </a>
   
+
+
+  
 </p>
 
 
@@ -61,6 +64,9 @@
   <a href="https://www.linkedin.com/in/ayman-arif-patel-300683127">
     <img src="https://img.shields.io/badge/-Ayman Patel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ayman-arif-patel-300683127" alt="Follow @aymanace97" />
   </a>
+  <a href="https://app.netlify.com/sites/ayman-technical-blog/deploys">
+    <img alt="netlify" src="https://api.netlify.com/api/v1/badges/42f27def-e60e-47c0-b92e-d8f97281fa20/deploy-status" />
+  </a>	
 </p>
 
 <!--
